@@ -4,13 +4,12 @@ import { Col } from "..";
 export const Wrapper = styled("div")(({ theme }) => ({
   display: "flex",
   flexDirection: "row",
-  justifyContent: "center",
-  alignItems: "center",
   height: "62.5vh",
 }));
 
 export const LeftSide = styled("div")(({ theme }) => ({
   display: "flex",
+  flexDirection: "column",
   width: "50%",
 }));
 
