@@ -5,6 +5,8 @@ export const Wrapper = styled("div")(({ theme }) => ({
   display: "flex",
   flexDirection: "row",
   height: "62.5vh",
+  padding: "0 10px",
+  backgroundColor: theme.color.greyscale.white,
 }));
 
 export const LeftSide = styled("div")(({ theme }) => ({
@@ -26,6 +28,7 @@ export const DesignBackground = styled("div")(({ theme }) => ({
   backgroundPosition: "right",
   width: "100%",
   height: "74vh",
+  zIndex: 9,
 }));
 
 export const ColStyled = styled(Col)(({ theme }) => ({

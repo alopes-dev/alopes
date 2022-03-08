@@ -8,7 +8,7 @@ export const Avatar: React.FC = () => {
   return (
     <S.Wrapper>
       <S.Avatar>
-        <Image src="/unnamed.jpg" width={100} height={100} />
+        <Image src="/unnamed.jpg" width={80} height={80} />
       </S.Avatar>
     </S.Wrapper>
   );
