@@ -1,0 +1,24 @@
+## Link do Jira: 
+<link>
+
+## Sumário
+- `One/two lines explanation. What the bug does and how it works?`
+
+## Quem é afetado?
+- `Que usuários são afetados pelo bug?`
+
+## Como reproduzir o bug?
+- `Quais passos são necessários para reproduzir o bug?`
+
+## Como ele foi corrigido?
+- `Descreva como o problema foi resolvido`
+
+## Como foi testado?
+- `Que passos são necessários para testar e garantir que o bug foi corrigido?`
+
+## Checklist do revisor:
+- [ ] O código segue o guideline do projeto
+- [ ] Se há necessidade de script de dados, ele foi adicionado ao projeto
+- [ ] As mudanças geraram novos alertas (warnings) no build
+- [ ] Se aplicável, foram adicionados novos testes que provam que a correção foi efetiva ou que a funcionalidade está correta
+- [ ] Novos e existentes testes unitários passaram localmente com as alterações
