@@ -13,8 +13,8 @@ export const FeatureList = styled.ul`
   li {
     display: flex;
     flex-direction: column;
-    color: #fff;
     border-radius: 4px;
+    color: #fff;
     padding: 20px;
     background: black;
     height: 133px;
